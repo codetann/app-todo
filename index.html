@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="./css/global.css" />
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
   </head>
   <body>
-    <h1>Todo app</h1>
-    <div id="app"></div>
-    <script type="module" src="/main.js"></script>
+    <div id="app">
+      <h1>Todo app</h1>
+      <!-- TODO INPUT -->
+      <div class="input__container">
+        <input id="input-add" class="input__add" type="text" placeholder="Add todo" />
+        <button id="button-add"  class="button__add">Add</button>
+    </div>
+    <script type="module" src="./js/main.js"></script>
   </body>
 </html>

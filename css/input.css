@@ -1,0 +1,45 @@
+.input__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  width: 20rem;
+  margin-top: 3rem;
+}
+
+.input__add {
+  background: var(--white-alpha-100);
+  border: 2px solid transparent;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  transition: all 0.1s ease-in-out;
+  color: white;
+  width: 100%;
+}
+
+.input__add:focus {
+  outline: none;
+  background: transparent;
+  border: 2px solid var(--blue-500);
+}
+
+.button__add {
+  padding: 0.5rem;
+  border: 2px solid transparent;
+  border-radius: 0.5rem;
+  transition: all 0.1s ease-in-out;
+  color: white;
+  background: var(--blue-500);
+  cursor: pointer;
+  box-shadow: 0 2.5px 0 1px var(--blue-600);
+  margin-bottom: 0.1rem;
+}
+
+.button__add:hover {
+  opacity: 0.8;
+}
+
+.button__add:active {
+  transform: translateY(1px);
+  box-shadow: 0 1px 0 1px var(--blue-600);
+}
